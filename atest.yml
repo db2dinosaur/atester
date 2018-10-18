@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: james
+  tasks:
+    - name: test connection
+      ping:
+      become_user: root
+      become: yes
+      become_method: sudo

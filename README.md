@@ -5,4 +5,6 @@ Run using:
 
   ansible-pull -U https://github.com/db2dinosaur/atester --clean --ask-become-pass atest.yml
 
+Adding atest.yml to verify that some bits are in place.
+
 db2dinosaur - October 2018
